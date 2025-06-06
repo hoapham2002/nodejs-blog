@@ -1,6 +1,4 @@
-
 class Sitecontroller {
-
     // [GET] /home
     index(req, res) {
         res.render('home');
@@ -12,4 +10,4 @@ class Sitecontroller {
     }
 }
 
-module.exports = new Sitecontroller;
+module.exports = new Sitecontroller();
