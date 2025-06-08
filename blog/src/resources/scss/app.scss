@@ -1,9 +1,5 @@
 @use 'index' as *;
 
-h1 {
-    color: $red-color;
-}
-
-h2 {
-    color: blueviolet;
+.card-course-item{
+    margin-top: 16px;
 }
